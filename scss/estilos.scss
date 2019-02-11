@@ -1,0 +1,245 @@
+html{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bienvenidos {
+  background: url("../images/Home_page/try12.png") no-repeat right top;
+  // background-size: 865px 548px;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: linear-gradient(to right, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+}
+
+.fixed-top {
+    position: absolute;
+}
+
+.encabezado{
+  padding: .5rem 0;
+  // background-color: transparent !important;
+  background: rgba(255, 255, 255, 0.73);
+}
+
+.encabezado .logo img{
+  width: 100px;
+  height: auto;
+}
+
+.boton-buscar,
+.boton-menu{
+  color: black;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.boton-buscar:hover,
+.boton-menu:hover{
+  color: #60ffff;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.boton-buscar:focus,
+.boton-menu:focus{
+  color: #1d2124;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.boton-buscar{
+  margin-left: auto;
+}
+.boton-menu{
+
+}
+
+#bloque-buscar{
+  flex: 1 1 auto;
+}
+
+.contenedor-bloque-buscar{
+  display: flex;
+}
+
+#bloque-buscar input[type="text"]{
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 0 0 5px;
+  flex: 3 1 auto;
+}
+
+#bloque-buscar input[type="submit"]{
+  border:0;
+  background: #a4a5a8;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  flex: 1 1 auto;
+}
+
+#bloque-buscar input[type="submit"]:hover{
+  background: #7b7b7c;
+  cursor: pointer;
+}
+
+#bloque-buscar input[type="submit"]:focus{
+  outline:0;
+}
+
+
+#menu-principal{
+  flex: 1 1 100%;
+}
+
+#menu-principal ul{
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#menu-principal li{
+  list-style: none;
+  text-decoration: none;
+  padding: 0.6rem;
+  border-top: 1px solid rgba(4, 4, 4, 0.25);
+}
+
+#menu-principal li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.texto-encabezado {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.texto-encabezado .display-4 {
+    margin-top: 9rem;
+}
+
+.texto-encabezado p,
+.texto-encabezado a {
+  margin-top: 2rem;
+}
+
+
+.flecha-bajar a{
+  // display: inline-block;;
+  font-size: 3rem;
+  color: black;
+}
+
+
+
+@media (min-width:768px){
+
+  html{
+    font-size: 16px;
+  }
+
+  // .bienvenidos {
+  //   background: url("../images/Home_page/try10.png") no-repeat right top;
+  //   // background-size: 865px 548px;
+  //   background-size: cover;
+  //   height: 100vh;
+  // }
+
+  .boton-buscar{
+    order:2;
+    margin-left: 0;
+  }
+
+  #menu-principal {
+    display: block;
+    order:1;
+    flex: 0 1 auto;
+    margin-left: auto;
+}
+
+  #menu-principal ul {
+    display: flex;
+    margin: 0;
+}
+
+#menu-principal ul li {
+    display: flex;
+    align-items: center;
+    border-top: 0px;
+    padding: 0.3rem;
+    // margin: 0.2rem;
+}
+
+  #menu-principal ul li a {
+    // padding: .3rem;
+    text-transform: capitalize;
+    // margin: 0 .3rem 0.5rem;
+    // border-bottom: 1px solid transparent;
+    // transition: all 1s ease;
+    // color: black;
+
+}
+
+// #menu-principal ul li.active a,
+// #menu-principal ul li a:hover {
+//   color: #343a40;
+//   border: 1px solid red;
+// }
+
+.btn-outline-light {
+    border-color: transparent;
+}
+
+.encabezado .container {
+  position: relative;
+}
+
+.encabezado {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 4px 21px -3px rgba(0, 0, 0, 0.13);
+}
+
+#bloque-buscar{
+  flex: 1 1 100%;
+  order: 3;
+  position: absolute;
+  width: 20rem;
+  right: .9rem;
+  top: 4.2rem;
+}
+
+.texto-encabezado {
+  color: black;
+}
+
+.texto-encabezado .display-4 {
+  margin-top: 12rem;
+}
+
+.texto-encabezado p,
+.texto-encabezado a {
+  margin-top: 2rem;
+}
+
+.edificio{
+  margin-top: 9rem;
+}
+
+.edificio img {
+  width: 450px;
+}
+
+
+
+}

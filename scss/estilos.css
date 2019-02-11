@@ -1,0 +1,106 @@
+html {
+  margin: 0;
+  font-size: 13px; }
+
+.bienvenidos {
+  background: url("../images/Home_page/principal-movil.png") no-repeat center right; }
+
+.encabezado {
+  padding: .5rem 0;
+  background-color: transparent !important; }
+
+.boton-buscar,
+.boton-menu {
+  color: white;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar:hover,
+.boton-menu:hover {
+  color: #40acf5;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar:focus,
+.boton-menu:focus {
+  color: #1d2124;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar {
+  margin-left: auto; }
+
+#bloque-buscar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.contenedor-bloque-buscar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#bloque-buscar input[type="text"] {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 0 0 5px;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 auto;
+          flex: 3 1 auto; }
+
+#bloque-buscar input[type="submit"] {
+  border: 0;
+  background: #5858e8;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+#bloque-buscar input[type="submit"]:hover {
+  background: #2c2c7d;
+  cursor: pointer; }
+
+#bloque-buscar input[type="submit"]:focus {
+  outline: 0; }
+
+#menu-principal {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
+
+#menu-principal ul {
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0; }
+
+#menu-principal li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.6rem;
+  border-top: 1px solid rgba(4, 4, 4, 0.25); }
+
+#menu-principal li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase; }
+
+.texto-encabezado {
+  margin-top: 7.8rem; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  .bienvenidos {
+    background: url("../images/Home_page/principal.png") no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed !important; }
+
+  .texto-encabezado {
+    margin-top: 7.8rem; } }
+
+/*# sourceMappingURL=estilos.css.map */

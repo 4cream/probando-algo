@@ -1,0 +1,209 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.bienvenidos {
+  background: url("../images/Home_page/try12.png") no-repeat right top;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: linear-gradient(to right, #fefefe 0%, #dbdbdb 50%, #e2e2e2 100%); }
+
+.fixed-top {
+  position: absolute; }
+
+.encabezado {
+  padding: .5rem 0;
+  background: rgba(255, 255, 255, 0.73); }
+
+.encabezado .logo img {
+  width: 100px;
+  height: auto; }
+
+.boton-buscar,
+.boton-menu {
+  color: black;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar:hover,
+.boton-menu:hover {
+  color: #60ffff;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar:focus,
+.boton-menu:focus {
+  color: #1d2124;
+  border: 0;
+  font-size: 1.5rem; }
+
+.boton-buscar {
+  margin-left: auto; }
+
+#bloque-buscar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.contenedor-bloque-buscar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#bloque-buscar input[type="text"] {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 0 0 5px;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 auto;
+          flex: 3 1 auto; }
+
+#bloque-buscar input[type="submit"] {
+  border: 0;
+  background: #a4a5a8;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+#bloque-buscar input[type="submit"]:hover {
+  background: #7b7b7c;
+  cursor: pointer; }
+
+#bloque-buscar input[type="submit"]:focus {
+  outline: 0; }
+
+#menu-principal {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
+
+#menu-principal ul {
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0; }
+
+#menu-principal li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.6rem;
+  border-top: 1px solid rgba(4, 4, 4, 0.25); }
+
+#menu-principal li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase; }
+
+.texto-encabezado {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.texto-encabezado .display-4 {
+  margin-top: 9rem; }
+
+.texto-encabezado p,
+.texto-encabezado a {
+  margin-top: 2rem; }
+
+.flecha-bajar a {
+  font-size: 3rem;
+  color: black; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  .boton-buscar {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 0; }
+
+  #menu-principal {
+    display: block;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    margin-left: auto; }
+
+  #menu-principal ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0; }
+
+  #menu-principal ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 0px;
+    padding: 0.3rem; }
+
+  #menu-principal ul li a {
+    text-transform: capitalize; }
+
+  .btn-outline-light {
+    border-color: transparent; }
+
+  .encabezado .container {
+    position: relative; }
+
+  .encabezado {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    -webkit-box-shadow: 0px 4px 21px -3px rgba(0, 0, 0, 0.13);
+            box-shadow: 0px 4px 21px -3px rgba(0, 0, 0, 0.13); }
+
+  #bloque-buscar {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    position: absolute;
+    width: 20rem;
+    right: .9rem;
+    top: 4.2rem; }
+
+  .texto-encabezado {
+    color: black; }
+
+  .texto-encabezado .display-4 {
+    margin-top: 12rem; }
+
+  .texto-encabezado p,
+  .texto-encabezado a {
+    margin-top: 2rem; }
+
+  .edificio {
+    margin-top: 9rem; }
+
+  .edificio img {
+    width: 450px; } }
+
+/*# sourceMappingURL=estilos.css.map */
